@@ -64,7 +64,7 @@ export const getStaticProps = async () => {
         props: {
             initialTodos,
             time,
-            revalidation: 1
+            revalidate: 1
         },
     };
 };
