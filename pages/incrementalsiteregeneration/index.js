@@ -31,6 +31,7 @@ const IncrementalSiteRegeneration = ({ initialTodos, time }) => {
 
     return (
         <div className="container d-flex flex-column align-items-center">
+            <h1>Incremental Static Regeneration</h1>
             <div className="d-flex gap-2">
                 <p style={{ marginTop: '15px' }}>Time:</p>
                 <p style={{ marginTop: '15px' }}>{time}</p>

@@ -17,7 +17,7 @@ export default function Home() {
             <div className="d-flex flex-column gap-5" style={{width:'100vw', marginTop:'4rem'}}>
               <div className="d-flex justify-content-evenly">
                 <div className="border border-dark rounded-5 p-5" style={{minWidth:'30rem'}}>
-                  <h4>Server Side Rendering</h4>
+                  <h4 className="text-center">Server Side Rendering</h4>
                   <div className="d-flex justify-content-center" style={{ marginTop: '20px' }}>
                     <Link href='/ssr'>
                       <div className="btn btn-dark">Details</div>
@@ -25,7 +25,7 @@ export default function Home() {
                   </div>
                 </div>
                 <div className="border border-dark rounded-5 p-5" style={{minWidth:'30rem'}}>
-                  <h4>Static Site Generation</h4>
+                  <h4 className="text-center">Static Site Generation</h4>
                   <div className="d-flex justify-content-center" style={{ marginTop: '20px' }}>
                     <Link href='/staticsitegeneration'>
                       <div className="btn btn-dark">Details</div>
@@ -35,7 +35,7 @@ export default function Home() {
               </div>
               <div className="d-flex justify-content-evenly">
                 <div className="border border-dark rounded-5 p-5" style={{minWidth:'30rem'}}>
-                  <h4>Client Side Rendering</h4>
+                  <h4 className="text-center">Client Side Rendering</h4>
                   <div className="d-flex justify-content-center" style={{ marginTop: '20px' }}>
                     <Link href='/clientsiderendering'>
                       <div className="btn btn-dark">Details</div>
@@ -43,7 +43,7 @@ export default function Home() {
                   </div>
                 </div>
                 <div className="border border-dark rounded-5 p-5" style={{minWidth:'30rem'}}>
-                  <h4>Incremental Static Regeneration</h4>
+                  <h4 className="text-center">Incremental Static Regeneration</h4>
                   <div className="d-flex justify-content-center" style={{ marginTop: '20px' }}>
                     <Link href='/incrementalsiteregeneration'>
                       <div className="btn btn-dark">Details</div>
